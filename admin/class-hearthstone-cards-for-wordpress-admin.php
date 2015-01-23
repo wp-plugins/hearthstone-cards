@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name.
+ * Hearthstone Cards for WordPress
  *
  * @package   Hearthstone_Cards_for_WordPress_Admin
  * @author    flowdee <support@flowdee.de>
  * @link      http://www.flowdee.de
- * @copyright 2014 flowdee
+ * @copyright 2015 flowdee
  */
 
 /**
@@ -168,7 +168,7 @@ class Hearthstone_Cards_for_WordPress_Admin {
 	 * @since    1.0
 	 */
 	public function display_plugin_admin_page() {
-		include_once( 'views/admin.php' );
+		include_once('views/admin.php');
 	}
 
 	/**
